@@ -1,6 +1,6 @@
 # Random Bible Quote
 
-[![npm version](https://badge.fury.io/js/bible-quotes.svg)](https://badge.fury.io/js/bible-quotes)
+[![npm version](https://badge.fury.io/js/%408khan%2Fbible-quotes.svg)](https://badge.fury.io/js/@8khan/bible-quotes)
 
 A lightweight and simple Node.js package to get random or specific Bible quotes from multiple versions.
 
@@ -20,7 +20,7 @@ A lightweight and simple Node.js package to get random or specific Bible quotes 
 Install the package using npm:
 
 ```bash
-npm install bible-quotes
+npm install @8khan/bible-quotes
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ Import the package and use the `getQuote` function.
 To get a random quote, call `getQuote()` without any arguments. By default, it uses the New International Version (NIV).
 
 ```javascript
-const { getQuote } = require('bible-quotes');
+const { getQuote } = require('@8khan/bible-quotes');
 
 // Get a random quote from the NIV (default)
 const randomQuote = getQuote();
@@ -48,7 +48,7 @@ console.log(`${randomKJVQuote.reference} - "${randomKJVQuote.text}"`);
 To get a specific quote, provide the verse reference as the first argument.
 
 ```javascript
-const { getQuote } = require('bible-quotes');
+const { getQuote } = require('@8khan/bible-quotes');
 
 // Get a specific verse from the NIV (default)
 const john316 = getQuote('John 3:16');
@@ -85,4 +85,4 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 ## License
 
-This project is licensed under the MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
