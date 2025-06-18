@@ -1,7 +1,5 @@
 # Random Bible Quote
 
-[![npm version](https://badge.fury.io/js/%408khan%2Fbible-quotes.svg)](https://badge.fury.io/js/bible-quotes)
-
 A lightweight and simple Node.js package to get random or specific Bible quotes from multiple versions.
 
 ## Features
