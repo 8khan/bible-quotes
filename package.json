@@ -1,6 +1,6 @@
 {
   "name": "bible-quotes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library to get random or specific Bible verses.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
